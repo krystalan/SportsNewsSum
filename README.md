@@ -1,4 +1,6 @@
 # 体育新闻文本摘要
+[![Author](https://img.shields.io/badge/Author-Jiaan%20Wang-blue)]()
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)   
 ## 1.前言
 马上就要研究生开学了，于是想整理一下自己本科毕设做的东西。把一些数据还有算法的思路公开，希望能够对大家的项目有所启发吧。我毕业论文题目是《**面向体育新闻的摘要生成算法设计与实现**》，显而易见，就是在体育新闻文本上做了一个文摘的尝试。   
 
