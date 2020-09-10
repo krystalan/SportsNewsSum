@@ -45,7 +45,8 @@
 
 我们在这个数据集上训练了PGN模型（<u>[Paper](https://arxiv.org/abs/1704.04368)</u>、<u>[Code](https://github.com/becxer/pointer-generator/)</u>），然后便可以利用训练好的模型直接应用于我们的数据集，这样模型产生的摘要部分通常便会含有表情标签，例如某新闻的摘要为：```朱婷反击！[威武][威武][哈哈][哈哈][哈哈]```。  
 
-训练模型部分我参考了这篇文章：https://www.cnblogs.com/zingp/p/11571593.html，其中数据集```weibo_news```也能从该文中找到（第四节）。
+训练模型部分我参考了这篇文章：https://www.cnblogs.com/zingp/p/11571593.html    
+其中数据集```weibo_news```也能从该文中找到（第四节）。
 
 ## 4. 融合部分（part3）
 最终我们将生成式摘要部分（part2）得到结果中的表情标签保留下来，去重并拼接到抽取式摘要部分（part1）得到的结果后来充当表情点缀作用。  
